@@ -14,13 +14,13 @@ public class Player {
 
     public void chooseName() {
         System.out.println("What is your name?");
-        name = Main.scanner.nextLine(); //Freezes program until user hits Enter
+        name = Main.nextLine(); //Freezes program until user hits Enter
         System.out.println("welcome, " + name);
     }
 
     public void chooseWeapon() throws Exception {
         System.out.println("Choose your weapon (Sword/Mace)");
-        weapon = Main.scanner.nextLine();
+        weapon = Main.nextLine();
 
         if (weapon.equalsIgnoreCase("Sword")) {
             System.out.println("Sword is a fine choice");
@@ -36,7 +36,7 @@ public class Player {
     public void chooseLocation() throws Exception {
 
         System.out.println("Choose your Location [Forest/Tunnel]");
-        location = Main.scanner.nextLine();
+        location = Main.nextLine();
 
         if(location.equalsIgnoreCase("Forest"))
 
