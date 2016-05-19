@@ -60,7 +60,7 @@ public class Player {
 
     public void findItem(String item) {
         System.out.println(" You Found " + item + " Pick it up? [Y/N] ");
-        String answer = Main.scanner.nextLine();
+        String answer = Main.nextLine();
         if (answer.equalsIgnoreCase("y")) {
             items.add(item);
             System.out.println(" You now have " + items.size() + " items ");
