@@ -1,8 +1,5 @@
 package com.theironyard;
 
-/**
- * Created by zach on 5/24/16.
- */
 public class Character {
     String name;
     int health;
